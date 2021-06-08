@@ -9,4 +9,4 @@ axios.defaults.headers.common['Accept'] = 'application/json'
 
 axios.defaults.adapter = httpAdapter
 
-module.exports = axios
+export default axios
